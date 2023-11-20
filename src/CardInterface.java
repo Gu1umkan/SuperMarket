@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface CardInterface {
+public interface CardInterface {
+    void payWithCard(double money);
+    double getCardBalnce();
 }
